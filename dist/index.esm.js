@@ -2209,74 +2209,74 @@ var links = [
     },
 ];
 var socials = [
-    {
-        label: "Telegram",
-        icon: "TelegramIcon",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/goosedefi",
-            },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
-            {
-                label: "中文",
-                href: "https://t.me/goosefinancechinese",
-            },
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-            {
-                label: "Italiano",
-                href: "https://t.me/goosefinanceitalian",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/goosefinancerussian",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/GooseFinanceTurkey",
-            },
-            // {
-            //   label: "Português",
-            //   href: "https://t.me/PancakeSwapPortuguese",
-            // },
-            {
-                label: "Español",
-                href: "https://t.me/goosefinancespanish",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/goosefinancejapanese",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/goosefinancefrench",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/goosefinanceann",
-            },
-            {
-                label: "Price Bot",
-                href: "https://t.me/BinanceRocketEGG",
-            },
-        ],
-    },
-    {
-        label: "Twitter",
-        icon: "TwitterIcon",
-        href: "https://twitter.com/goosedefi",
-    },
-    {
-        label: "Reddit",
-        icon: "RedditIcon",
-        href: "https://www.reddit.com/r/GooseFinanceofficial",
-    },
+//  {
+//label: "Telegram",
+//  icon: "TelegramIcon",
+//    items: [
+//{
+//    label: "English",
+//      href: "https://t.me/goosedefi",
+//      },
+// {
+//   label: "Bahasa Indonesia",
+//   href: "https://t.me/PancakeSwapIndonesia",
+// },
+//{
+//    label: "中文",
+//      href: "https://t.me/goosefinancechinese",
+//      },
+// {
+//   label: "Tiếng Việt",
+//   href: "https://t.me/PancakeSwapVN",
+// },
+//{
+//    label: "Italiano",
+//      href: "https://t.me/goosefinanceitalian",
+//      },
+//{
+//    label: "русский",
+//      href: "https://t.me/goosefinancerussian",
+//      },
+//{
+//   label: "Türkiye",
+//     href: "https://t.me/GooseFinanceTurkey",
+//     },
+// {
+//   label: "Português",
+//   href: "https://t.me/PancakeSwapPortuguese",
+// },
+//{
+// label: "Español",
+// href: "https://t.me/goosefinancespanish",
+//},
+//    {
+//        label: "日本語",
+//  href: "https://t.me/goosefinancejapanese",
+//  },
+//    {
+//  label: "Français",
+//    href: "https://t.me/goosefinancefrench",
+//    },
+//      {
+//label: "Announcements",
+//  href: "https://t.me/goosefinanceann",
+//  },
+//    {
+//        label: "Price Bot",
+//     href: "https://t.me/BinanceRocketEGG",
+//     },
+// ],
+//},
+//{
+//  label: "Twitter",
+//  icon: "TwitterIcon",
+//  href: "https://twitter.com/goosedefi",
+//},
+//{
+//  label: "Reddit",
+//  icon: "RedditIcon",
+//  href: "https://www.reddit.com/r/GooseFinanceofficial",
+//},
 ];
 var MENU_HEIGHT = 64;
 var MENU_ENTRY_HEIGHT = 48;
@@ -2841,22 +2841,22 @@ var ResetCSS = createGlobalStyle(templateObject_1 || (templateObject_1 = __makeT
 var templateObject_1;
 
 var baseColors = {
-    failure: "#ED4B9E",
-    primary: "#aa8929",
-    primaryBright: "#aa8929",
-    primaryDark: "#aa8929",
-    secondary: "#7645D9",
-    success: "#31D0AA",
+    failure: "#ffffff",
+    primary: "#ffffff",
+    primaryBright: "#ffffff",
+    primaryDark: "#ffffff",
+    secondary: "#ffffff",
+    success: "#ffffff",
     warning: "#FFB237",
 };
 var brandColors = {
-    binance: "#F0B90B",
+    binance: "#ffffff",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#000033", backgroundDisabled: "#000011", contrast: "#FFFFFF", invertedContrast: "#000000", input: "#333333", primaryDark: "#ffffff", tertiary: "#003547", text: "#ffffff", textDisabled: "#888888", textSubtle: "#ffffff", borderColor: "#ffffff", card: "#ffffff 50%", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #cccff 50%, #000000 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#ffffff", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#ff0000", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #ffffff 100%)",
     } });
 
 var light$6 = {
