@@ -2842,20 +2842,20 @@ var templateObject_1;
 
 var baseColors = {
     failure: "#ff0000",
-    primary: "#aaaaaa",
+    primary: "#aa44aa",
     primaryBright: "#eeeeee",
     primaryDark: "#0000ff",
     secondary: "#008888",
-    success: "#ffffff",
+    success: "#aaaaaa",
     warning: "#FFB237",
 };
 var brandColors = {
-    binance: "#ffffff",
+    binance: "#aa0000",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#000022", backgroundDisabled: "#000011", contrast: "#ff0000", invertedContrast: "#00ff00", input: "#000011", primaryDark: "#0055ff", tertiary: "#555555", text: "#ffffff", textDisabled: "#ffffff", textSubtle: "#ffffff", borderColor: "#ffffff", card: "#ffffff 0%", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#000022", backgroundDisabled: "#000011", contrast: "#ff0000", invertedContrast: "#00ff00", input: "#000011", primaryDark: "#0055ff", tertiary: "#555555", text: "#ffffff", textDisabled: "#ffffff", textSubtle: "#aaaaaa", borderColor: "#000022", card: "#000022 0%", gradients: {
         bubblegum: "linear-gradient(139.73deg, #111111 50%, #000000 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#008888", background: "#000022", backgroundDisabled: "#000011", contrast: "#ff0000", invertedContrast: "#00ff00", input: "#000011", primaryDark: "#0055ff", tertiary: "#555555", text: "#ffffff", textDisabled: "#ffffff", textSubtle: "#ffffff", borderColor: "#ffffff", card: "#ffffff 0%", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#008888", background: "#000022", backgroundDisabled: "#000011", contrast: "#ff0000", invertedContrast: "#00ff00", input: "#000011", primaryDark: "#0055ff", tertiary: "#555555", text: "#ffffff", textDisabled: "#ffffff", textSubtle: "#aaaaaa", borderColor: "#000022", card: "#000022 0%", gradients: {
         bubblegum: "linear-gradient(139.73deg, #111111 50%, #000000 100%)",
     } });
 
