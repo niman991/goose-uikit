@@ -2416,7 +2416,7 @@ var PanelFooter = function (_a) {
 };
 var templateObject_1$8, templateObject_2$3, templateObject_3$1, templateObject_4$1;
 
-var StyledPanel = styled.div(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"], ["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"])), function (_a) {
+var StyledPanel = styled.div(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 0px solid rgba(133, 133, 133, 0);\n    width: ", ";\n  }\n"], ["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 0px solid rgba(133, 133, 133, 0);\n    width: ", ";\n  }\n"])), function (_a) {
     var showMenu = _a.showMenu;
     return (showMenu ? "80px" : 0);
 }, function (_a) {
@@ -2681,7 +2681,7 @@ var Avatar = function (_a) {
 var templateObject_1$4, templateObject_2$1;
 
 var Wrapper = styled.div(templateObject_1$3 || (templateObject_1$3 = __makeTemplateObject(["\n  position: relative;\n  width: 100%;\n"], ["\n  position: relative;\n  width: 100%;\n"])));
-var StyledNav = styled.nav(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 2px rgba(133, 133, 133, 0.1);\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 2px rgba(133, 133, 133, 0.1);\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"])), function (_a) {
+var StyledNav = styled.nav(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 0px rgba(133, 133, 133, 0);\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 0px rgba(133, 133, 133, 0);\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"])), function (_a) {
     var showMenu = _a.showMenu;
     return (showMenu ? 0 : "-" + MENU_HEIGHT + "px");
 }, MENU_HEIGHT, function (_a) {
@@ -2718,7 +2718,7 @@ var Menu = function (_a) {
             var isTopOfPage = currentOffset === 0;
             // Always show the menu when user reach the top
             if (isTopOfPage) {
-                setShowMenu(true);
+                setShowMenu(false);
             }
             // Avoid triggering anything at the bottom because of layout shift
             else if (!isBottomOfPage) {
@@ -2728,7 +2728,7 @@ var Menu = function (_a) {
                 }
                 else {
                     // Has scroll down
-                    setShowMenu(false);
+                    setShowMenu(true);
                 }
             }
             refPrevOffset.current = currentOffset;
@@ -2841,21 +2841,21 @@ var ResetCSS = createGlobalStyle(templateObject_1 || (templateObject_1 = __makeT
 var templateObject_1;
 
 var baseColors = {
-    failure: "#ff0000",
-    primary: "#aa44aa",
-    primaryBright: "#eeeeee",
-    primaryDark: "#0000ff",
-    secondary: "#008888",
-    success: "#aaaaaa",
-    warning: "#FFB237",
+    failure: "darkblue",
+    primary: "#4EC0BE",
+    primaryBright: "#CC00F7",
+    primaryDark: "#aaaaaa",
+    secondary: "#CC00F7",
+    success: "#4EC0BE",
+    warning: "lightblue",
 };
 var brandColors = {
-    binance: "#aa0000",
+    binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#000022", backgroundDisabled: "#000011", contrast: "#ff0000", invertedContrast: "#00ff00", input: "#000011", primaryDark: "#0055ff", tertiary: "#555555", text: "#ffffff", textDisabled: "#ffffff", textSubtle: "#aaaaaa", borderColor: "#000022", card: "#000022 0%", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#000022", backgroundDisabled: "gold", contrast: "pink", invertedContrast: "#4EC0BE", input: "#666666", primaryDark: "purple", tertiary: "#aaaaaa", text: "white", textDisabled: "#888888", textSubtle: "#bbbbbb", borderColor: "#000022 0", card: "#000022 0", gradients: {
         bubblegum: "linear-gradient(139.73deg, #111111 50%, #000000 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#008888", background: "#000022", backgroundDisabled: "#000011", contrast: "#ff0000", invertedContrast: "#00ff00", input: "#000011", primaryDark: "#0055ff", tertiary: "#555555", text: "#ffffff", textDisabled: "#ffffff", textSubtle: "#aaaaaa", borderColor: "#000022", card: "#000022 0%", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#008888", background: "#000022", backgroundDisabled: "gold", contrast: "pink", invertedContrast: "yellow", input: "lightgreen", primaryDark: "purple", tertiary: "orange", text: "white", textDisabled: "blue", textSubtle: "orange", borderColor: "#000022 0", card: "#000022 0", gradients: {
         bubblegum: "linear-gradient(139.73deg, #111111 50%, #000000 100%)",
     } });
 
