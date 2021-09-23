@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -2854,21 +2854,21 @@ var ResetCSS = styled.createGlobalStyle(templateObject_1 || (templateObject_1 = 
 var templateObject_1;
 
 var baseColors = {
-    failure: "darkblue",
+    failure: "lightblue",
     primary: "#4EC0BE",
     primaryBright: "#CC00F7",
     primaryDark: "#aaaaaa",
-    secondary: "#CC00F7",
+    secondary: "#4EC0BE",
     success: "#4EC0BE",
     warning: "lightblue",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#000022", backgroundDisabled: "#555555", contrast: "pink", invertedContrast: "#4EC0BE", input: "#666666", primaryDark: "purple", tertiary: "#aaaaaa", text: "white", textDisabled: "#888888", textSubtle: "#bbbbbb", borderColor: "#000022 0", card: "#000022 0", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#000022", backgroundDisabled: "#555555", contrast: "pink", invertedContrast: "#4EC0BE", input: "#666666", primaryDark: "purple", tertiary: "#666666", text: "white", textDisabled: "#888888", textSubtle: "#bbbbbb", borderColor: "#000022 0", card: "#000022 0", gradients: {
         bubblegum: "linear-gradient(139.73deg, #111111 50%, #000000 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#008888", background: "#000022", backgroundDisabled: "gold", contrast: "pink", invertedContrast: "#aaaaaa", input: "lightgreen", primaryDark: "purple", tertiary: "orange", text: "white", textDisabled: "blue", textSubtle: "orange", borderColor: "#000022 0", card: "#000022 0", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#008888", background: "#000022", backgroundDisabled: "gold", contrast: "pink", invertedContrast: "yellow", input: "lightgreen", primaryDark: "purple", tertiary: "orange", text: "white", textDisabled: "blue", textSubtle: "orange", borderColor: "#000022 0", card: "#000022 0", gradients: {
         bubblegum: "linear-gradient(139.73deg, #111111 50%, #000000 100%)",
     } });
 
